@@ -1,0 +1,29 @@
+{
+  "name": "crud-operation-b",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/usman684/CRUD-Operation-B#readme",
+  "bugs": {
+    "url": "https://github.com/usman684/CRUD-Operation-B/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usman684/CRUD-Operation-B.git"
+  },
+  "license": "ISC",
+  "author": "Usman",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
